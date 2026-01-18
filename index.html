@@ -63,18 +63,22 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="https://formspree.io/f/xbdddvva" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="_replyto" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xbdddvva"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
     <!-- FOOTER -->
     <footer>
